@@ -1,0 +1,24 @@
+# build output
+build/
+dist/
+*.spec
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# NEVER commit these: they contain your account details / session data
+.bluestar_pc/
+last_things_response.json
+last_groups_response.json
+saved_id.txt
+.env
+*.log
+
+# never commit the official app or its decompiled code (copyright)
+*.apk
+*.xapk
+*.aab
+jadx*/
+java.zip
+app.rar
